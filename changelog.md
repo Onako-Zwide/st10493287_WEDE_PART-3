@@ -7,4 +7,5 @@
              - created a sitemap.xml file and populated it 
              - implemented javascript validation for the submit button on both enquiry and contact forms
              
+             
 
