@@ -4,4 +4,7 @@
 [2025-10-29] I implemented Dynamic content and search on my products.html page
 [2025-11-12] - implemented search engine optimization and I'm not quite sure if it worked out correctly 
              - created a robots.txt file and populated it 
+             - created a sitemap.xml file and populated it 
+             - implemented javascript validation for the submit button on both enquiry and contact forms
+             
 
