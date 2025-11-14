@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with FreshMart ORGANICS for inquiries, feedback, or questions about our products and services. Contact us via email, phone, or visit us in Makhanda, South Africa.">
+    <meta name="keywords" content="FreshMart, contact, email, phone, address, inquiries, feedback, South Africa">
+
+    <title>Contact Us - FreshMart ORGANICS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">FreshMart <span>ORGANICS</span></h1>
+
+                <!-- This is my Navigation menu -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+                    <!--Main content is here and my Contact section-->
+    <main class="container">
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or would like to know more about our products, please reach out!</p>
+
+                <!-- This is my contact form for my contact page -->
+            <div class="contact-grid">
+                <div class="contact-form">
+           
+                    <form action="#" method="post">
+                      <label for="contact-type">What are you contacting us about?</label>
+                        <select id="contact-type" name="contact-type" required>
+                            <option value="">-- Select --</option>
+                            <option value="fruit">Organic Fruits & Veg</option>
+                            <option value="milk">Plant-Based Milk</option>
+                            <option value="skincare">Natural Skincare</option>
+                            <option value="eco">Eco-Friendly Products</option>
+                            <option value="bulk">Bulk Order / Partnership</option>
+                            <option value="other">Other</option>
+                        </select>
+
+
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+            
+                </div>
+              <!--Contact information goes here-->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> info@freshmartorganics.co.za</p>
+                    <p><strong>Phone:</strong> +27 12 345 6789</p>
+             
+
+                     <!-- Google Map Embed -->
+                <div class="map-container" style="margin-top: 30px;"></div>
+                    <h3>Our Location</h3>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106671.5500575884!2d26.413001408646675!3d-33.332252367572174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e645da72a7208d1%3A0x2d67a9838978e632!2sFirdene%20Farm!5e0!3m2!1sen!2sza!4v1761383938453!5m2!1sen!2sza" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0; border-radius:12px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+                    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 FreshMart ORGANICS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

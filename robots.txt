@@ -1,0 +1,8 @@
+# robots.txt for FreshMart ORGANICS
+# Controls how search engines crawl the website
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Allow: /
+
+Sitemap: https://FreshMart ORGANICS.com/sitemap.xml

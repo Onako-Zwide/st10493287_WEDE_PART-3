@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit your enquiries about FreshMart ORGANICS products or services. Our team will respond within 24 hours to help you with bulk orders, products, or eco-living solutions.">
+    <meta name="keywords" content="FreshMart, enquiry, products, services, bulk orders, eco-living, organic products, South Africa">
+
+    <title>Enquiries - FreshMart ORGANICS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">FreshMart <span>ORGANICS</span></h1>
+
+                  <!-- This is my Navigation menu -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+                    <!--Main content is here and my Enquiry section-->
+    <main class="container">
+        <section class="enquiry-section">
+                   <!--Enquiry Form-->
+            <h2>Product & Service Enquiries</h2>
+            <p>Let us help you with more details about our organic products, bulk orders, or eco-living solutions. Fill in the enquiry form and a FreshMart ORGANICS team member will respond within 24 hours.</p>
+
+            <!--The user enters their name and surname-->
+            <div class="enquiry-box">
+                <form action="#" method="post" class="enquiry-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+
+                  <!--The user enters email address here-->
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                 <!--The user enters phone number here-->
+                    <div class="form-group">
+                        <label for="phone">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                 <!--The user selects enquiry type here-->
+                    <div class="form-group">
+                        <label for="enquiry-type">What is your enquiry about?</label>
+                        <select id="enquiry-type" name="enquiry-type" required>
+                            <option value="">-- Select --</option>
+                            <option value="fruit">Organic Fruits & Veg</option>
+                            <option value="milk">Plant-Based Milk</option>
+                            <option value="skincare">Natural Skincare</option>
+                            <option value="eco">Eco-Friendly Products</option>
+                            <option value="bulk">Bulk Order / Partnership</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <!--The user enters their message here-->
+                    <div class="form-group">
+                        <label for="message">Enquiry Details</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <!--Submit button for submitting the enquiry-->
+                    <button type="submit" class="button">Submit Enquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+                    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 FreshMart ORGANICS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
